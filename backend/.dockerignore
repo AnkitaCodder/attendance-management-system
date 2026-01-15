@@ -1,0 +1,9 @@
+target/*.original
+target/surefire*
+target/test-classes/
+target/generated-sources/
+target/*.jar
+.idea/
+*.iml
+*.log
+.git/
