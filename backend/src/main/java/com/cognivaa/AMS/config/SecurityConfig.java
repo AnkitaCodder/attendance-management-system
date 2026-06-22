@@ -116,7 +116,9 @@ public class SecurityConfig {
 
         // ✅ Explicit frontend origin
         configuration.setAllowedOrigins(
-                List.of("http://192.168.56.10:5173")
+                List.of("http://192.168.56.10:5173",
+                        "http://localhost:3000"
+                       )
         );
 
         // ✅ Allowed HTTP methods
